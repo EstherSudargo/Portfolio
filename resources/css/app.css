@@ -9,3 +9,13 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+/* Apply a peaceful Serif font to your big headings and logo text */
+h1, h2, h3, .navbar-brand span {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Apply a clean, readable Sans-Serif font to your navigation and body paragraphs */
+body, .nav-link {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+

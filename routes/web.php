@@ -15,3 +15,9 @@ Route::get('/home', function () {
 Route::get('/aboutme', function(){
     return view('aboutme');
 });
+Route::get('/figma', function(){
+    return view('figma');
+});
+Route::get('/data_based_projects', function(){
+    return view('data_based_projects');
+});
